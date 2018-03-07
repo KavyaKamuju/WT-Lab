@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  workshopinfo  [
+<!ELEMENT workshopinfo (workshop+)>
+<!ELEMENT workshop (workshopname,description,noofseats,fee,schedule,contactinfo)>
+<!ELEMENT workshopname (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT noofseats (#PCDATA)>
+<!ELEMENT fee (#PCDATA)>
+<!ELEMENT schedule (startdate,enddate)>
+<!ELEMENT startdate (#PCDATA)>
+<!ELEMENT enddate (#PCDATA)>
+<!ELEMENT contactinfo (name,address,phone,email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+<workshopinfo>
+  <workshop>
+    <workshopname>Artificial Intelligence</workshopname>
+    <description>A New Emerging Technology</description>
+    <noofseats>200</noofseats>
+    <fee>3000</fee>
+    <schedule>
+        <startdate>10/6/2018</startdate>
+        <enddate>13/6/2018</enddate>
+    </schedule>
+    <contactinfo>
+        <name> rupa</name>
+        <address>bank colony</address>
+         <phone>5646645654564</phone>
+         <email>rupa@gmail.com</email>
+    </contactinfo>
+  </workshop>
+  <workshop>
+    <workshopname>IOT</workshopname>
+    <description>A New Emerging Technology</description>
+    <noofseats>200</noofseats>
+    <fee>3000</fee>
+    <schedule>
+        <startdate>10/6/2018</startdate>
+        <enddate>13/6/2018</enddate>
+    </schedule>
+    <contactinfo>
+        <name>rupa</name>
+        <address>bank colony</address>
+         <phone>4654654954656</phone>
+         <email>rupa@gmail.com</email>
+    </contactinfo>
+  </workshop>  
+<workshop>
+    <workshopname>Artificial Intelligence</workshopname>
+    <description>A New Emerging Technology</description>
+    <noofseats>2005</noofseats>
+    <fee>3000</fee>
+    <schedule>
+        <startdate>10/6/2018</startdate>
+        <enddate>13/6/2018</enddate>
+    </schedule>
+    <contactinfo>
+        <name> rupa</name>
+        <address>bank colony</address>
+         <phone>15456456464</phone>
+         <email>rupa@gmail.com</email>
+    </contactinfo>
+  </workshop>
+  </workshopinfo>

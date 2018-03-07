@@ -1,0 +1,74 @@
+<html>
+  <body>
+    <form name="myform">
+    <label>First Name : </label>
+  <input type="text" id="first" required><br><br>
+   <label>Last Name: </label>
+  <input type="text" id="last" ><br><br>
+   <label>User Name : </label>
+  <input type="text" id="user" ><br><br>
+   <label>Password : </label>
+  <input type="password" id="pass" ><br><br>
+   <label>Gender : </label>
+  <input type="radio" id="g" name="gender" >Male
+  <input type="radio" id="g"  >Female<br><br>
+   <label>Registration Number : </label>
+  <input type="text" id="rn" ><br><br>
+   <label>Date Of Birth: </label>
+  <input type="date" id="dob" ><br><br>
+   <label>Address: </label><br>
+  <textarea  rows="5" cols="30" id="add" required></textarea><br><br>
+  <label>Phone Number : </label>
+  <input type="text" id="ph" ><br><br>
+  <label>Zip Code : </label>
+  <input type="text" id="zc" ><br><br>
+   <label>Average Marks : </label>
+  <input type="text" id="marks" ><br><br>
+  <label>Email ID: </label>
+  <input type="text" id="mid" ><br><br>
+  <input type="submit" id="sub" onclick=myfunction()>
+  <p id="result"></p>
+    </form>
+    <script>
+    function myfunction(){
+      var name=document.myform.name.value;  
+      var password=document.myform.pass.value;
+      var username=document.myform.user.value;
+      var zc=document.myform.zc.value;
+       var numbers = /^[0-9]+$/;
+      var letters = /^[A-Za-z]+$/;  
+  if (name==letters){  
+  alert("enter only alphabets");  
+  return false;  
+}
+else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }
+else if(username==letters&&username.length<10){  
+  alert("Username must be less than 10 characters long.");  
+  return false;  
+  }  
+else if(zc==numbers && zc.length==6){  
+  alert("Username must be only 6 characters long.");  
+  return false;  
+  }  
+else if(zc==numbers&&zc.length==6){  
+  alert("Username must be only 6 characters long.");  
+  return false;  
+  }  
+   var emailID = document.myForm.mid.value;
+         atpos = emailID.indexOf("@");
+         dotpos = emailID.lastIndexOf(".");
+         
+         if (atpos < 1 || ( dotpos - atpos < 2 )) 
+         {
+            alert("Please enter correct email ID")
+            document.myForm.EMail.focus() ;
+            return false;
+         }
+    }
+  
+    </script>
+  </body>
+  </html>

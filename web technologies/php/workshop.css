@@ -1,0 +1,51 @@
+header{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-size: 30px;
+    color: white;
+    padding:20px;
+}
+body{
+        background-image: url("robot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+
+    font-size:20px;
+    padding:20px;
+    padding-bottom: 30px;
+    color:white;
+    
+}
+button{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color:black;
+     font-size:20px;
+     padding:15px;
+     border-radius:10px;
+}
+button:hover
+{
+    color:deepskyblue;
+}
+a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+     color:white;
+     font-size:20px;
+     padding:15px;
+    text-decoration:none;
+}
+
+a:hover { 
+    color:deepskyblue;
+}
+
+input{
+    color:black;
+}
+
+
+
+

@@ -1,0 +1,14 @@
+<html>
+<body onresize="myf()">
+<p id="result"></p>
+<script>
+function myf() {
+    var w = window.outerWidth;
+    var h = window.outerHeight;
+    var txt = "Window size: width=" + w + ", height=" + h;
+    document.getElementById("result").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>

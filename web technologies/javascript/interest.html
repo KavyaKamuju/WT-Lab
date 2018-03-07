@@ -1,0 +1,22 @@
+<html>
+  <head>
+    
+  </head>
+  <label>Principle : </label>
+  <input type="text" id="p"><br><br>
+   <label>Rate of Interest : </label>
+  <input type="text" id="r" ><br><br>
+   <label>Time : </label>
+  <input type="text" id="t" ><br><br>
+  <input type="submit" id="sub" onclick=myfunction()>
+  <p id="result"></p>
+    <script>
+    function myfunction(){
+       p = document.getElementById("p").value;
+       r = document.getElementById("r").value;
+       t = document.getElementById("t").value;
+      result = document.getElementById("result");
+                 result.innerHTML = "The interest is " + (p*t*r/100);
+    }
+    </script>
+  </html>

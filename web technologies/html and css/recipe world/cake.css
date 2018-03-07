@@ -1,0 +1,42 @@
+html,body,header,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,body,div,p,img{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    opacity:1.0;
+
+}
+
+header{
+    color:white;
+    background-color: brown;
+    padding:10px;
+}
+article{
+    background-color: white;
+    color:black;
+    margin-left:200px;
+    margin-right:200px;
+}
+body{
+    background-color: grey;
+}
+p,ol,img{
+    margin-left:15px;d
+}
+ul{
+    margin-left:50px;
+}
+h2{
+    color:green;
+    margin-left:15px;
+    font-size:20px;
+}
+.p1{
+    border-color:skyblue solid 5px;
+}
+h1{
+    font-size:40px;
+    font:bold
+}
